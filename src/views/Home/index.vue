@@ -10,7 +10,6 @@ import { ComponentInternalInstance } from "vue";
 
 const { proxy } = getCurrentInstance() as ComponentInternalInstance;
 const store = proxy?.store;
-console.log(proxy);
 </script>
 <script lang="ts">
 export default {
